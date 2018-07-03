@@ -1,0 +1,62 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+@font-face {
+    font-family: Pacifico;
+    src: url("../resources/Pacifico.ttf");
+}
+
+.mainFxmlClass {
+
+}
+
+#name-lbl {
+    -fx-font-size: 50px;
+    -fx-text-fill: #EEEEEE;
+    -fx-font-family: "Pacifico";
+}
+
+#hbox {
+    -fx-alignment: center;
+    -fx-spacing: 80px;
+}
+
+.text-field {
+    -fx-font-family: "Pacifico";
+    -fx-font-size: 40px;
+    -fx-background-color: #EEEEEE;
+    -fx-text-fill: #482100;
+    
+}
+
+#play-button {
+    
+    -fx-font-family: "Pacifico";
+    -fx-font-size: 60px;
+    -fx-text-fill: #EEEEEE;
+    -fx-background-color: #BF700A;
+}
+
+#vbox {
+    -fx-alignment: center;
+    -fx-spacing: 200px;
+}
+
+#close-button {
+    -fx-font-size: 40px;
+    -fx-font-family: "Pacifico";
+    -fx-background-color: transparent;
+    -fx-text-fill: #EEEEEE;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+#good-lbl {
+    -fx-font-size: 100px;
+    -fx-font-family: "Pacifico";
+    -fx-text-fill: #EEEEEE;
+    -fx-alignment: center;
+}
